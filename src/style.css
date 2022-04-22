@@ -235,19 +235,25 @@ body {
                 0 0 35px var(--clr);
 }
 
-/* ----------------- Time ----------------- */
+/* ----------------- else ----------------- */
 #btn1 {
-    position: relative;
+    position: absolute;
     margin-top: 30%;
     height: 35px;
     width: 200px;
     justify-self: center;
     border-radius: 10px;
-    border: #191919 solid;
+    border: linear-gradient(#6730ff, #ff3080) solid;
     color: white;
     font-family: consoleas;
     font-weight: 500px;
     letter-spacing: 2px;
-    background: linear-gradient(#6730ff, #ff3080);
-    margin: 20px 0 ;
+    background: #242424 ;
+    top: 450px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
