@@ -241,7 +241,6 @@ body {
     margin-top: 30%;
     height: 35px;
     width: 200px;
-    justify-self: center;
     border-radius: 10px;
     border: linear-gradient(#6730ff, #ff3080) solid;
     color: white;
@@ -249,7 +248,7 @@ body {
     font-weight: 500px;
     letter-spacing: 2px;
     background: #242424 ;
-    top: 450px;
+    bottom: 20px;
 }
 
 .container {
